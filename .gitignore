@@ -1,0 +1,93 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# DEPENDENCIES
+node_modules/
+/node_modules
+.pnp
+/.pnp
+.pnp.js
+
+# TESTING
+coverage/
+/coverage
+.nyc_ouput/
+/.nyc_output
+
+# IDEs and EDITORS
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# DOCKER
+.docker/*
+!.docker/entrypoint.sh
+!.docker/postgres/Dockerfile
+
+# NEXT.JS
+/.next/
+.next/
+/out/
+out/
+
+# PRODUCTION
+build/
+/build
+dist/
+/dist
+
+# MISC
+.DS_Store
+
+# LOG
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# ENV files
+.env
+.env.dev
+.env.development
+.env.prod
+.env.production
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# KEYS
+*.pem
+
+# DATABASES
+mysql/
+/mysql
+db.sqlite
+
+# DEPLOY
+.vercel
+
+# UPLOADS
+uploads/*
+!uploads/.gitkeep
+
+*.rest
+tsconfig.tsbuildinfo
+
+Dockerfile
+Dockerfile.dev
+.dockerignore
+.npmrc
+Jenkinsfile
